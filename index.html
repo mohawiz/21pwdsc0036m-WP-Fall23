@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MohawizHamid</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/0badde5c0b.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <header class="logo">
+    <div class="top">
+        <img src="./Screenshot 2023-10-21 212341.png" alt="Tlogo">
+    </div>
+
+    <div class="hero">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#FF">Featured</a></li>
+                <li><a href="#Products">Products</a></li>
+                
+                <li><a href="#CC">Contact Us</a></li>
+            </ul>
+            <a href="#Products" class="btn">Shop Now</a><br>
+        </nav>
+            
+        
+        </header>
+<div class="sld" id="FF">
+    <h2 class="w3-center" style="color:white; font-size: 35px;"></i>Feat<span style="color:skyblue;">ured <i class="fa-regular fa-exclamation fa-flip " style="color: skyblue;"></i></span></h2>
+    
+
+    <div class="w3-content w3-section" style="max: width 800px; height: 500px; justify-content: center; align-items: center;display: flex;" >
+    <img class="mySlides" src="./item1.png" style="width: 50%; height: 500px">
+    <img class="mySlides" src="./item 2.png" style="width:50%; height: 500px">
+    <img class="mySlides" src="./item 3.png" style="width:50%; height: 500px">
+    <img class="mySlides" src="./item 4.png" style="width: 50%; height: 500px;">
+    </div>
+</div>
+            
+
+    <div class="Photos" id="Products">
+        <h1  style="color: aliceblue; font-size: 35px;"><i class="fa-solid fa-mobile-button fa-2x fa-beat" style="color: skyblue;"></i> Prod<span style="color: skyblue;">ucts</span></h1>
+        
+    </div>
+    
+    <!-- Photo Grid -->
+    <p style="color: whitesmoke; font-size: 20px;">At our store, we specialize in providing the latest and greatest in mobile technology, with a primary focus on the world's leading brands – iPhone, Samsung, and OnePlus. We understand that these brands represent cutting-edge innovation and design, and we are committed to offering our customers the best devices from these industry giants. Whether you're a loyal iPhone user, a fan of Samsung's sleek and powerful devices, or interested in the innovative features of OnePlus, we have a wide range of products and accessories to cater to your needs. We take pride in delivering the latest smartphones and tech solutions to keep you connected and in style</p>
+    <div class="row"> 
+        <div class="column">
+        
+        <img src="./grid15pro1.png" style="width:70%">
+        <img src="./gridS1.png" style="width:70%">
+        <img src="./gridz1.png" style="width:70%">
+        <img src="./gridO1.png" style="width:70%">
+        
+        </div>
+        <div class="column">
+        <img src="./grid15pro2.png" style="width:70%">
+        <img src="./gridS2.png" style="width:70%">
+        <img src="./gridz2.png" style="width:70%">
+        <img src="./gridO2.png" style="width:70%"><br>
+
+        </div>
+    </div>
+        
+    
+    <div class="container" id="CC">
+        <h1 style="color: whitesmoke;">Contact<span style="color: skyblue;"> Us</span></h1>
+        <div class="content">
+        <div class="left-side">
+            <div class="address details">
+                <i class="fa-solid fa-location-crosshairs fa-spin fa-2xl" style="color: #0259ed;"></i><br><br>
+            <div class="topic">Address</div>
+            <div class="text-one">Uet Peshawer</div>
+            <div class="text-two">Mansehra</div>
+            </div><br><br><br>
+            <div class="phone details">
+                <i class="fa-solid fa-phone-volume fa-shake fa-2xl" style="color: #005af5;"></i><br><br>
+            <div class="topic">Phone</div>
+            <div class="text-one">+92 3131555728</div>
+            <div class="text-two">+92 3332975002</div>
+            </div><br><br><br>
+            <div class="email details">
+                <i class="fa-solid fa-envelope fa-fade fa-2xl" style="color: #0259ed ;"></i><br><br>
+            <div class="topic">Email</div>
+            <div class="text-one">mohawizh@gmail.com</div>
+            <div class="text-two">21pwdsc0036@uettpeshawer.edu.pk</div>
+            </div>
+        </div><br><br><br>
+        <div class="right-side">
+            <div class="topic-text">Send us a message</div><br>
+            <i class="fa-regular fa-comments fa-flip fa-2xl" style="color: #025af2;"></i><br><br>
+            <p>DM Me If You Have Any Questions</p>
+        
+
+            <div class="content">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Lets Start">
+                </form>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+    
+                
+
+
+
+
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="social-media">
+            <i class="fa-brands fa-facebook-f"></i><a href="#" class="social-link">Facebook</a>
+            <i class="fa-brands fa-x-twitter"></i><a href="#" class="social-link">Twitter</a>
+            <i class="fa-brands fa-linkedin"></i><a href="#" class="social-link">LinkedIn</a>
+                    </div>
+                    <p class="end" style="align-items: center; justify-content: center; font-size: 20px; color: skyblue;">@CopyRight By Mohawiz Hamid</p>
+
+</div>
+</footer>
+
+
+
+
+    </body>
+    </html>

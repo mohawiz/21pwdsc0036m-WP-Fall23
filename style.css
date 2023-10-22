@@ -1,0 +1,120 @@
+header{
+background:black;
+}
+.top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo img{
+    width: 259px;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 20px;
+
+}
+.logo{
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+    }
+    nav ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    }
+    nav ul li a:hover{
+        color:blue;
+        transition: 0.4s; 
+    } 
+    .btn{
+        background-color:#0008f9;
+        color: whitesmoke;
+        text-decoration: none   ;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: transform .4s;
+        transform: scale(1.2);
+        
+    margin-left: 150px;
+    }
+    .btn:hove:hover{
+        transform: scale(1.2);
+        margin-left: 150px;
+    }
+.sld{
+    background-color: black;
+    max-width: 1500px;
+}
+html{
+    background-color: black;
+    
+} 
+.w3-content w3-section{
+    align-items: center;
+}
+.row{
+    display: flex;
+    
+}
+.container{
+font-size: 20px;
+color: skyblue;
+
+
+
+
+}
+.site-footer {
+    background-color:transparent;
+    color:red;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-link {
+    color:skyblue;
+    text-decoration: none;
+    margin: 10px;
+}
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    /* Reset some default browser styles and set a base font size */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Add responsive styles for specific screen widths */
+@media (max-width: 768px) {
+    /* Add styles for smaller screens */
+}
+
+/* Your existing styles go here */
